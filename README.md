@@ -7,3 +7,8 @@ Danh sách các yêu cầu dưới đây là cần thiết để chạy và thi�
 3. Hướng dẫn cài đặt netkit có ở trong thư mục buổi 1
 ## Kiểm thử:
 Sau khi cài đặt thành công netkit dùng lệnh `vstart pc1` để kiểm thử đã cài đặt thành công chưa
+## Netkit available command in this subject:
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
