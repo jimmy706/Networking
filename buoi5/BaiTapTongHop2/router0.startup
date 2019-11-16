@@ -1,0 +1,12 @@
+ifconfig eth0 10.0.60.10/28 up
+ifconfig eth1 10.0.40.10/28 up
+ifconfig eth2 10.0.10.10/28 up
+ifconfig eth3 10.0.30.10/28 up
+
+rotue add -net 10.0.12.0/28 gw 10.0.10.1
+route add -net 10.0.23.0/28 gw 10.0.30.3
+route add -net 1.0.0.0/24 gw 10.0.46.6
+route add -net 10.0.45.0/28 gw 10.0.40.1
+route add -net 10.0.46.0/28 gw 10.0.40.1
+
+/etc/init.d/zebra start
