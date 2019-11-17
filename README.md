@@ -7,6 +7,9 @@ Danh sách các yêu cầu dưới đây là cần thiết để chạy và thi�
 3. Hướng dẫn cài đặt netkit có ở trong thư mục buổi 1
 ## Kiểm thử:
 Sau khi cài đặt thành công netkit dùng lệnh `vstart pc1` để kiểm thử đã cài đặt thành công chưa
+## Vấn đề về việc thiếu folder:
+Do git chỉ cập nhật các file chứ không phải folder nên các fodler rỗng như pc, client, webserver... có thể không có khi tải về. Các bạn có thể fix bằng cách tạo các folder bị thiếu tương ứng với các bài tập trong file pdf đính kèm
+
 ## Netkit available command:
 
 ### `vstart <name> --eth0=A`
